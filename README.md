@@ -13,64 +13,31 @@ Follow these steps to run the app locally:
 ### Installation
 
 1. Clone the repository:
-   ```bash
+   ```
    git clone https://github.com/your-username/blog-arena.git
-Navigate to the project directory:
+   
+2. Navigate to the project directory:
 
-bash
-Copy code
-cd blog-arena
-Install server dependencies:
+```cd blog-arena```
 
-bash
-Copy code
-npm install
-Navigate to the client directory:
+3. Install server dependencies:
+```npm install```
 
-bash
-Copy code
-cd client
-Install client dependencies:
+4. Navigate to the client directory:
+```cd client```
 
-bash
-Copy code
-npm install
-Configuration
+5. Install client dependencies:
+```npm install```
+
+### Configuration
 In the server/config directory, create a config.env file and set your environment variables, such as database connection string and any other necessary configurations.
-Running the App
-Back to the root directory, start the server:
 
-bash
-Copy code
-npm run server
-In a separate terminal, navigate to the client directory and start the client:
+### Running the App
+1. Back to the root directory, start the server:
+```npm run server```
 
-bash
-Copy code
-npm start
-Open your web browser and visit http://localhost:3000/ to access BlogArena.
+2. In a separate terminal, navigate to the client directory and start the client:
+```npm start```
 
-Contributing
-Contributions are welcome! Please follow these guidelines for contributing to the project.
+3. Open your web browser and visit http://localhost:3000/ to access BlogArena.
 
-Fork the repository.
-Create a new branch for your feature or bug fix:
-bash
-Copy code
-git checkout -b feature/your-feature-name
-Make your changes and commit them:
-bash
-Copy code
-git commit -m "Add your commit message here"
-Push your branch to your forked repository:
-bash
-Copy code
-git push origin feature/your-feature-name
-Create a pull request against the main branch of the original repository.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-vbnet
-Copy code
-
-Remember to replace placeholders like `your-username`, `your-feature-name`, an
