@@ -11,7 +11,7 @@ export default function EditPost() {
   const [redirect, setRedirect] = useState(false);
 
   useEffect(() => {
-    fetch('https://blog-arena-api.vercel.app/post/' + id)
+    fetch('http://localhost:3000/post/' + id)
       .then(response => {
         response.json().then(postInfo => {
           setTitle(postInfo.title);
@@ -31,7 +31,7 @@ export default function EditPost() {
     if (files?.[0]) {
       data.set('file', files?.[0]);
     }
-    const response = await fetch('https://blog-arena-api.vercel.app/post', {
+    const response = await fetch('http://localhost:3000/post', {
       method: 'PUT',
       body: data,
       credentials: 'include',
